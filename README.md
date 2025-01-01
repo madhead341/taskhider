@@ -44,6 +44,7 @@ After injection, use the console menu to:
 ## Important Notes
 
 - **Ethical Use**: This tool is intended for educational purposes. Use responsibly.
+- **Inspiration**: I took the base code from [here](https://github.com/thebowenfeng/task-manager-hider) and optimized it with more options.
 
 ## License
 
