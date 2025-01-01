@@ -4,7 +4,7 @@ A C++ tool that hides specific processes from the system process list by hooking
 
 ## Features
 
-- **Hide Processes**: Hide up to 5 processes at a time.
+- **Hide Processes**: Hide up to 5 processes at a time. (can be changed in source code, i just did this for lightweight use)
 - **Dynamic Hooking**: Hooks into `NtQuerySystemInformation` to modify process enumeration.
 - **Unhooking**: Reverts changes and unhooks the function when exiting.
 
