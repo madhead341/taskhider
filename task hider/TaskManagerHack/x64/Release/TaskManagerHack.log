@@ -1,0 +1,14 @@
+﻿  pch.cpp
+  dllmain.cpp
+C:\Users\guscr\Downloads\task-manager-hider-master\task-manager-hider-master\TaskManagerHack\dllmain.cpp(22,96): error C2664: 'HMODULE GetModuleHandleW(LPCWSTR)': cannot convert argument 1 from 'const char [6]' to 'LPCWSTR'
+  (compiling source file '/dllmain.cpp')
+      C:\Users\guscr\Downloads\task-manager-hider-master\task-manager-hider-master\TaskManagerHack\dllmain.cpp(22,112):
+      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\libloaderapi.h(244,1):
+      see declaration of 'GetModuleHandleW'
+      C:\Users\guscr\Downloads\task-manager-hider-master\task-manager-hider-master\TaskManagerHack\dllmain.cpp(22,96):
+      while trying to match the argument list '(const char [6])'
+  
+C:\Users\guscr\Downloads\task-manager-hider-master\task-manager-hider-master\TaskManagerHack\dllmain.cpp(50,14): warning C4326: return type of 'main' should be 'int' instead of 'DWORD'
+  (compiling source file '/dllmain.cpp')
+  

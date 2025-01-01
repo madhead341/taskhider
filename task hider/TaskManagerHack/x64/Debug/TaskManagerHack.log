@@ -1,0 +1,38 @@
+﻿  dllmain.cpp
+C:\Users\guscr\Downloads\task hider\task hider\TaskManagerHack\dllmain.cpp(91,14): warning C4326: return type of 'main' should be 'int' instead of 'DWORD'
+  (compiling source file '/dllmain.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(4709,18): warning C4244: '=': conversion from 'WCHAR' to 'char', possible loss of data
+  (compiling source file '/dllmain.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(4709,18):
+      the template instantiation context (the oldest one first) is
+          C:\Users\guscr\Downloads\task hider\task hider\TaskManagerHack\dllmain.cpp(51,36):
+          see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<PWSTR,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Iter=PWSTR,
+              _Alloc=std::allocator<char>
+          ]
+              C:\Users\guscr\Downloads\task hider\task hider\TaskManagerHack\dllmain.cpp(51,36):
+              see the first reference to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' in 'hookNtQuerySysInfo'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(793,17):
+          see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<WCHAR*,WCHAR*,_Size_type>(_Iter,const _Sent,_Size)' being compiled
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=WCHAR *,
+              _Sent=WCHAR *,
+              _Size=unsigned __int64
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(949,18):
+          see reference to function template instantiation '_OutIt *std::_Copy_n_unchecked4<WCHAR*,_Size,char*>(_InIt,_SizeTy,_OutIt)' being compiled
+          with
+          [
+              _OutIt=char *,
+              _Size=unsigned __int64,
+              _InIt=WCHAR *,
+              _SizeTy=unsigned __int64
+          ]
+  
+  LINK : C:\Users\guscr\Downloads\task hider\task hider\x64\Debug\TaskManagerHack.dll not found or not built by the last incremental link; performing full link
+  TaskManagerHack.vcxproj -> C:\Users\guscr\Downloads\task hider\task hider\x64\Debug\TaskManagerHack.dll
