@@ -1,4 +1,4 @@
-# Task Hider - DLL Injector
+# Task Hider + DLL Injector
 
 A C++ tool that hides specific processes from the system process list by hooking into `NtQuerySystemInformation`. This allows processes to be hidden from the user and surveillance programs.
 
