@@ -1,11 +1,10 @@
 # Task Hider Injector Tool
 
-A command-line Python tool for injecting a custom DLL into `taskmgr.exe` (or any process), enabling you to manipulate processes or hide them from Task Manager.
+A command-line Python tool for injecting a custom DLL into `taskmgr.exe`, enabling you to manipulate processes or hide them from Task Manager.
 
 ## Features
 - Injects a DLL into `taskmgr.exe` or any process.
 - Uses hardcoded DLL and injector byte arrays (no external files).
-- Temporary files are stored in the system’s `TEMP` folder and deleted after use.
 
 ## Requirements
 - Python 3.x
