@@ -1,4 +1,4 @@
-﻿// dllmain.cpp : Defines the entry point for the DLL application.
+// dllmain.cpp : Defines the entry point for the DLL application.
 #include "pch.h"
 #include <iostream>
 #include <psapi.h>
@@ -136,7 +136,7 @@ DWORD WINAPI main(HMODULE hModule) {
         std::cout << "[1] Hide Process" << std::endl;
         std::cout << "[2] Hidden Processes" << std::endl;
         std::cout << "[H] Hide Console" << std::endl;
-        std::cout << "[X] Close (Will Uninject)" << std::endl;
+        std::cout << "[X] Close (Will Unhook)" << std::endl;
         std::cout << "\nEnter your choice: ";
         std::string choice;
         std::cin >> choice;
