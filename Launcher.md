@@ -3,7 +3,7 @@
 A command-line Python tool for injecting a custom DLL into `taskmgr.exe`, enabling you to manipulate processes or hide them from Task Manager.
 
 ## Features
-- Injects a DLL into `taskmgr.exe` or any process.
+- Injects a DLL into `taskmgr.exe`.
 - Uses hardcoded DLL and injector byte arrays (no external files).
 
 ## Requirements
